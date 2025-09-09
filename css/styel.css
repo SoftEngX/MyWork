@@ -314,7 +314,7 @@ body {
 }
 
 .btn:hover {
-    background: linear-gradient(180deg, #000000 0%, rgba(235, 235, 235, 0.00) 100%);;
+    background: linear-gradient(180deg, #282828 0%, rgba(235, 235, 235, 0.00) 100%);;
     color: #e1e1e1;
 }
 
