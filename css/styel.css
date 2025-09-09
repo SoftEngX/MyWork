@@ -314,8 +314,8 @@ body {
 }
 
 .btn:hover {
-    background: linear-gradient(180deg, #bac5ce 0%, rgba(235, 235, 235, 0.00) 100%);;
-    color: #000;
+    background: linear-gradient(180deg, #000000 0%, rgba(235, 235, 235, 0.00) 100%);;
+    color: #e1e1e1;
 }
 
 .footer {
