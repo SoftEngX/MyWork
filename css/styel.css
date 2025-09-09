@@ -310,6 +310,12 @@ body {
     border-radius: 30px;
     color: #000;
     margin-top: 25px;
+    transition: all 0.40s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(180deg, #bac5ce 0%, rgba(235, 235, 235, 0.00) 100%);;
+    color: #000;
 }
 
 .footer {
