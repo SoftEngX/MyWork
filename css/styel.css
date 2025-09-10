@@ -75,12 +75,25 @@ body {
 }
 
 .menu__link {
-    transition: all 0.6s ease;
+    position: relative;
 }
 
-.menu__link:hover {
-    border-bottom: 2px solid rgb(89, 174, 202);
+.menu__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: black;
+    transition: width 0.3s ease;
 }
+
+.menu__link:hover::after {
+    width: 100%;
+}
+
 
 .menu__btn {
     padding: 15px 58px;
