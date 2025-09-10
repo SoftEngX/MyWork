@@ -198,6 +198,11 @@ body {
     border-radius: 20px;
     border: 1px solid #777;
     padding: 50px 55px;
+    transition: all 0.3s ease;
+}
+
+.choose__color-btn:hover {
+    box-shadow: 1px 4px 15px grey;
 }
 
 .choose__color-btn--active {
