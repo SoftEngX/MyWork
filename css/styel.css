@@ -198,11 +198,11 @@ body {
     border-radius: 20px;
     border: 1px solid #777;
     padding: 50px 55px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .choose__color-btn:hover {
-    box-shadow: 1px 4px 15px grey;
+    box-shadow: 1px 7px 15px rgb(175, 175, 175);
 }
 
 .choose__color-btn--active {
@@ -362,6 +362,18 @@ body {
 
 .logo img:hover {
     transform: rotate(360deg);
+}
+
+.footer__link,
+.footer__text {
+    transition: all 0.2s ease;
+}
+
+.footer__link:hover {
+    opacity: 0.4;
+}
+.footer__text:hover {
+    opacity: 0.4;
 }
 
 .footer__list {
