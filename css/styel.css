@@ -330,6 +330,14 @@ body {
     padding: 20px 0;
 }
 
+.logo img {
+    transition: all 0.6s ease;
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+}
+
 .footer__list {
     padding-top: 80px;
     display: flex;
@@ -340,7 +348,7 @@ body {
 }
 
 .footer__list a:hover {
-    opacity: 0.7;
+    color: #f1602f;
 }
 
 
